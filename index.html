@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+       body{
+        background-color:#0C1023;
+       }
+       .email .header{
+        font-size:20px;
+       }
+       .email .header h1{
+        color: white;
+        text-align: center;
+        padding-top:3%;
+        padding-bottom: 3%;
+       }
+       .email .content{
+        width:50%;
+        border:1px solid seashell;
+        border-radius:5px;
+        box-shadow:10px 10px 1px 1px #EE9521;
+        margin: auto;
+        background-color: white;
+        text-align: center;
+       }
+       .email .content .header{
+        background-color:#EE9521;
+        color: white;
+        padding:10px;
+        margin-top:5%;
+       }
+       .email  .content .body h3{
+        font-size:30px;
+        color:#EE9521;
+       }
+       .email  .content .body span{
+        font-size:30px;
+       }
+       .email .content .body p{
+        text-align: justify;
+        width: 80%;
+        margin: auto;
+        padding: 3% 0%;
+       }
+       .email .footer{
+        background-color:#EE9521;
+        color: white;
+        margin-bottom:5%;
+        padding:2%;
+       }
+       @media (max-width:576px){
+            .email{
+                padding-bottom:5%;
+            }
+            .email .header h1{
+                font-size:25px;
+            }
+            .email .content{
+                width:90%;
+            }
+            .content .header{
+                padding: 0%;
+                margin: 0%;
+            }
+            .email .content{
+                box-shadow:5px 5px 1px 1px #EE9521;
+            }
+       }
+    </style>
+</head>
+<body>
+    <div class="email">
+        <div class="header">
+            <h1><i>WELCOME TO SAIKRUPA-ASTROLOGER AND VASTU CONSULTANT <br> YOU WANT TO PUCHASING THE STONE</i></h1>
+        </div>
+        <div class="content">
+            <div class="header">
+                <p>Hello,<br>Jethva Asmita<br>Thank you for visiting our website...<br>you are inquiry about the stones and diamonds...</p>
+            </div>
+            <div class="body">
+                <h3><i>Yellow stone</i></h3>
+                <img src="stone.png" width="50%"><br>
+                <span><b>Diamond</b></span>
+                <p>The yellow diamond is the one of the most adaptive fashion trends this decade. One of the most significant trend changing factors is famous celebrities flaunting their Yellow Diamond Jewelry, therefore rapidly increasing their popularity. </p>   
+            </div>
+            <div class="footer">
+                <p>Best regards,<br>Astrologer Teams.</p>
+                <span>Copyright © 2020 SAIKRUPA-ASTROLOGER, All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
