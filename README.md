@@ -17,7 +17,7 @@ This repository contains a **responsive HTML email template** 📨 perfect for n
 
 ## 📸 Preview
 
-> `(screenshot.png)`
+> `(stone.png)`
 
 ## 📄 License
 
